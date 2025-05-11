@@ -3,4 +3,11 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
+  server: {
+    host: true,
+    strictPort: true,
+    port: 5173,
+    // optional: add this if Gitpod gives a specific URL
+    // allowedHosts: ['your-workspace-id.gitpod.io']
+  },
 })
