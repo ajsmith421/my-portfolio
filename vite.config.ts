@@ -7,7 +7,6 @@ export default defineConfig({
     host: true,
     strictPort: true,
     port: 5173,
-    // optional: add this if Gitpod gives a specific URL
-    // allowedHosts: ['your-workspace-id.gitpod.io']
+    allowedHosts: ['5173-ajsmith421-myportfolio-3v6etbxk6kb.ws-us118.gitpod.io'],
   },
 })
