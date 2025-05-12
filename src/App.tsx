@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 
 export default function App() {
   useEffect(() => {
-    document.title = "Your Name | Software Developer";
+    document.title = "Andrew Smith | Software Developer";
   }, []);
 
   return (
